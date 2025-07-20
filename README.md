@@ -18,7 +18,7 @@ This project is a web-based system to manage scan jobs using OCR (Optical Charac
 - Frontend: [React](https://reactjs.org/), [Mantine UI](https://mantine.dev/), [Tailwind CSS](https://tailwindcss.com/)
 - Internationalization: [i18next](https://react.i18next.com/)
 - State Management: React Hooks
-- Backend API: (Node.js/Nest.js)
+- Backend API: (Node.js/Express.js)
 - OCR & Grading logic: Tesseract and OCR pipeline
 
 ---
