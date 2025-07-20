@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: pisa-backend
+    env: node
+    branch: main
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+
+  - type: static
+    name: pisa-frontend
+    env: static
+    branch: main
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    plan: free
